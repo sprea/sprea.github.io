@@ -5,7 +5,7 @@ import { ExternalLink } from "lucide-react";
 const CVDownload: React.FC = () => {
   const handleOpenCV = () => {
     // Replace this URL with your actual Google Drive CV link
-    const googleDriveUrl = "https://drive.google.com/file/d/13XsJY7HUTQIOUWt2mKpwFy-S_DUZw9Ow/view?usp=sharing";
+    const googleDriveUrl = "https://drive.google.com/file/d/1pN6KsMelQZddLYmg7VrAUd0EdCTN5qB9/view?usp=sharing";
     window.open(googleDriveUrl, '_blank', 'noopener,noreferrer');
   };
 
