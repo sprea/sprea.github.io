@@ -55,7 +55,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ skills }) => (
                 <Github className="w-5 h-5 sm:w-6 sm:h-6" />
               </a>
               <a 
-                href="mailto:simo.sprea1907@gmail.com"
+                href="mailto:simone.spreafico@protonmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors p-2 sm:p-3 rounded-full hover:bg-accent"
               >
                 <Mail className="w-5 h-5 sm:w-6 sm:h-6" />
