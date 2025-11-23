@@ -1,13 +1,12 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin, Award, TrendingUp, Users, Shield, Building, Code2, Database } from "lucide-react";
+import { Calendar, MapPin, Building } from "lucide-react";
 import React from "react";
 
 const ExperienceSection: React.FC = () => (
   <section id="experience" className="py-16 sm:py-20 px-4 sm:px-6 bg-muted/30">
     <div className="container mx-auto max-w-4xl">
-      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 text-primary">Experience & Expertise</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 text-primary">Experience</h2>
       
       <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8">
         {/* Main Role Card */}
@@ -19,15 +18,15 @@ const ExperienceSection: React.FC = () => (
                   <Building className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <CardTitle className="text-primary text-xl sm:text-2xl">Cybersecurity Analyst</CardTitle>
+                  <CardTitle className="text-primary text-xl sm:text-2xl">IT Manager</CardTitle>
                   <CardDescription className="text-base flex items-center gap-4 mt-2">
                     <span className="flex items-center gap-1">
                       <MapPin className="w-4 h-4" />
-                      Lutech
+                      BlueThink
                     </span>
                     <span className="flex items-center gap-1">
                       <Calendar className="w-4 h-4" />
-                      2024 - Present
+                      2025 - Present
                     </span>
                   </CardDescription>
                 </div>
@@ -39,29 +38,29 @@ const ExperienceSection: React.FC = () => (
               <div className="space-y-3">
                 <div className="flex items-center gap-2 text-sm">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Identity Management</span>
+                  <span>Internal IT Services Management</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Vulnerability Assesment</span>
+                  <span>Network Security</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>VAPT</span>
+                  <span>Systems Security</span>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-center gap-2 text-sm">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Sailpoint IdentityIQ</span>
+                  <span>RMM</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Qualys</span>
+                  <span>EDR</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Skybox</span>
+                  <span>IPS</span>
                 </div>
               </div>
             </div>
@@ -74,6 +73,58 @@ const ExperienceSection: React.FC = () => (
         <h3 className="text-2xl font-semibold mb-6 text-primary text-center">Previous Experience</h3>
         
         <div className="grid md:grid-cols-2 gap-6">
+
+          <Card className="border-border hover:border-primary/50 transition-all duration-300 hover:shadow-md">
+            <CardHeader className="pb-3">
+              <div className="flex items-center gap-3">
+                <div className="p-2 bg-red-100 dark:bg-red-900/20 rounded-lg">
+                  <Building className="w-5 h-5 text-red-600 dark:text-red-400" />
+                </div>
+                <div>
+                  <CardTitle className="text-lg">Cybersecurity Analyst</CardTitle>
+                  <CardDescription className="text-sm">
+                    <span className="flex items-center gap-1">
+                      <MapPin className="w-3 h-3" />
+                      Lutech Group
+                    </span>
+                    <span className="flex items-center gap-1 mt-1">
+                      <Calendar className="w-3 h-3" />
+                      2024 - 2025
+                    </span>
+                  </CardDescription>
+                </div>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+                  <span>Identity Management</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+                  <span>Vulnerability Assesment</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+                  <span>VAPT</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+                  <span>Sailpoint IdentityIQ</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+                  <span>Qualys</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+                  <span>Skybox</span>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Previous Role 1 */}
           <Card className="border-border hover:border-primary/50 transition-all duration-300 hover:shadow-md">
             <CardHeader className="pb-3">

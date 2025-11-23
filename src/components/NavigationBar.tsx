@@ -16,7 +16,6 @@ type NavigationBarProps = {
 
 const NavigationBar: React.FC<NavigationBarProps> = ({
   activeSection,
-  setActiveSection,
   isMobileMenuOpen,
   setIsMobileMenuOpen,
   scrollToSection,
